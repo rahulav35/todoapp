@@ -1,0 +1,59 @@
+@media (max-width: 600px)
+
+{
+    .headerdiv{
+        height: 35%;
+        width: 100%;
+        outline: 1px solid black;
+        background-image: url(/assets/bg-mobile-dark.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -90px;
+
+    }
+
+    .headerdiv img{
+        height: 30px;
+        width: 30px;
+        
+        margin-right: 40px;
+        
+    }
+    .todo{
+        margin-left: 40px;
+        color: white;
+        
+    }
+
+}
+
+
+
+
+.headerdiv{
+    height: 55%;
+    width: 100%;
+    outline: 1px solid black;
+    background-image: url(/assets/bg-desktop-light.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    
+
+}
+
+.headerdiv img{
+    height: 20px;
+    width: 20px;
+    
+    margin-left:30px;
+    
+}
+.todo{
+    margin-right: 300px;
+    color: white;
+
+    
+}
