@@ -16,9 +16,9 @@ function App() {
         array={array}
       />
       <div className={styles.seconddiv}>
-        {array.map((singledata) => {
-          // console.log(singledata);
-          return <Todoitem line={singledata} />;
+        {array.map((singledata, i) => {
+          console.log(singledata);
+          return <Todoitem line={singledata} key={i} />;
         })}
       </div>
       <div className={styles.thirddiv}>
